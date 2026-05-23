@@ -1,4 +1,4 @@
-# ⚡ Evoc Developer Sandbox - Browser-Based Coding IDE
+# ⚡ Developer Sandbox - Browser-Based Coding IDE
 
 A premium, full-stack browser-based developer assessment workspace built on the **MERN Stack** (MongoDB, Express, React, Node.js). This application enables candidates to write code, install external npm packages, manage files/folders, preview their applications in real-time, and persist their sandbox session across reboots.
 
