@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "cjyw0ekuw",
+    "name": "My Sandbox Project",
+    "files": {
+      "/src/App.jsx": "import React, { useState } from 'react';\nimport confetti from 'canvas-confetti';\n\nexport default function App() {\n  const [count, setCount] = useState(0);\n\n  const handleConfetti = () => {\n    setCount(c => c + 1);\n    confetti({\n      particleCount: 100,\n      spread: 70,\n      origin: { y: 0.6 }\n    });\n  };\n\n  return (\n    <div style={{\n      fontFamily: 'system-ui, sans-serif',\n      padding: '2rem',\n      textAlign: 'center',\n      background: 'linear-gradient(135deg, #0f172a, #1e1b4b)',\n      color: '#f8fafc',\n      minHeight: '100vh',\n      display: 'flex',\n      flexDirection: 'column',\n      justifyContent: 'center',\n      alignItems: 'center'\n    }}>\n      <h1 style={{ fontSize: '3rem', margin: '0 0 1rem 0', background: 'linear-gradient(to right, #38bdf8, #818cf8)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>\n        Live Sandbox App\n      </h1>\n      <p style={{ color: '#94a3b8', fontSize: '1.2rem', marginBottom: '2rem' }}>\n        Edit <code>src/App.jsx</code> and watch the updates happen in near real-time!\n      </p>\n      \n      <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>\n        <button \n          onClick={() => setCount(c => c + 1)}\n          style={{\n            background: '#2563eb',\n            color: 'white',\n            border: 'none',\n            padding: '0.75rem 1.5rem',\n            fontSize: '1rem',\n            fontWeight: '600',\n            borderRadius: '0.5rem',\n            cursor: 'pointer',\n            boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)',\n            transition: 'background 0.2s'\n          }}\n        >\n          Count: {count}\n        </button>\n\n        <button \n          onClick={handleConfetti}\n          style={{\n            background: 'linear-gradient(135deg, #ec4899, #8b5cf6)',\n            color: 'white',\n            border: 'none',\n            padding: '0.75rem 1.5rem',\n            fontSize: '1rem',\n            fontWeight: '600',\n            borderRadius: '0.5rem',\n            cursor: 'pointer',\n            boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)',\n            transition: 'opacity 0.2s'\n          }}\n        >\n          Pop Confetti! \ud83c\udf89\n        </button>\n      </div>\n\n      <div style={{ marginTop: '3rem', color: '#64748b', fontSize: '0.9rem' }}>\n        Installed packages used: <code>canvas-confetti</code>\n      </div>\n    </div>\n  );\n}\n",
+      "/src/main.jsx": "import React from 'react';\nimport ReactDOM from 'react-dom/client';\nimport App from './App';\nimport './index.css';\n\nReactDOM.createRoot(document.getElementById('root')).render(\n  <React.StrictMode>\n    <App />\n  </React.StrictMode>\n);\n",
+      "/src/index.css": "body {\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',\n    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',\n    sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  background-color: #0f172a;\n}\n",
+      "/package.json": "{\n  \"name\": \"react-sandbox\",\n  \"dependencies\": {\n    \"react\": \"^18.2.0\",\n    \"react-dom\": \"^18.2.0\",\n    \"canvas-confetti\": \"^1.6.0\"\n  }\n}"
+    },
+    "dependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "canvas-confetti": "^1.6.0"
+    },
+    "activeFile": "/src/App.jsx",
+    "createdAt": "2026-05-22T19:40:54.803Z",
+    "updatedAt": "2026-05-22T19:40:54.803Z"
+  },
+  {
+    "_id": "ihi2ok24i",
+    "name": "My Sandbox Project",
+    "files": {
+      "/src/App.jsx": "import React, { useState } from 'react';\nimport confetti from 'canvas-confetti';\n\nexport default function App() {\n  const [count, setCount] = useState(0);\n\n  const handleConfetti = () => {\n    setCount(c => c + 1);\n    confetti({\n      particleCount: 100,\n      spread: 70,\n      origin: { y: 0.6 }\n    });\n  };\n\n  return (\n    <div style={{\n      fontFamily: 'system-ui, sans-serif',\n      padding: '2rem',\n      textAlign: 'center',\n      background: 'linear-gradient(135deg, #0f172a, #1e1b4b)',\n      color: '#f8fafc',\n      minHeight: '100vh',\n      display: 'flex',\n      flexDirection: 'column',\n      justifyContent: 'center',\n      alignItems: 'center'\n    }}>\n      <h1 style={{ fontSize: '3rem', margin: '0 0 1rem 0', background: 'linear-gradient(to right, #38bdf8, #818cf8)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>\n        my test app 2\n      </h1>\n      <p style={{ color: '#94a3b8', fontSize: '1.2rem', marginBottom: '2rem' }}>\n        Edit <code>src/App.jsx</code> and watch the updates happen in near real-time!\n      </p>\n      \n      <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>\n        <button \n          onClick={() => setCount(c => c + 1)}\n          style={{\n            background: '#2563eb',\n            color: 'white',\n            border: 'none',\n            padding: '0.75rem 1.5rem',\n            fontSize: '1rem',\n            fontWeight: '600',\n            borderRadius: '0.5rem',\n            cursor: 'pointer',\n            boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)',\n            transition: 'background 0.2s'\n          }}\n        >\n          Count: {count}\n        </button>\n\n        <button \n          onClick={handleConfetti}\n          style={{\n            background: 'linear-gradient(135deg, #ec4899, #8b5cf6)',\n            color: 'white',\n            border: 'none',\n            padding: '0.75rem 1.5rem',\n            fontSize: '1rem',\n            fontWeight: '600',\n            borderRadius: '0.5rem',\n            cursor: 'pointer',\n            boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)',\n            transition: 'opacity 0.2s'\n          }}\n        >\n          Pop Confetti! \ud83c\udf89\n        </button>\n      </div>\n\n      <div style={{ marginTop: '3rem', color: '#64748b', fontSize: '0.9rem' }}>\n        Installed packages used: <code>canvas-confetti</code>\n      </div>\n    </div>\n  );\n}\n",
+      "/src/main.jsx": "import React from 'react';\nimport ReactDOM from 'react-dom/client';\nimport App from './App';\nimport './index.css';\n\nReactDOM.createRoot(document.getElementById('root')).render(\n  <React.StrictMode>\n    <App />\n  </React.StrictMode>\n);\n",
+      "/src/index.css": "body {\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',\n    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',\n    sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  background-color: #0f172a;\n}\n",
+      "/package.json": "{\n  \"name\": \"react-sandbox\",\n  \"dependencies\": {\n    \"react\": \"^18.2.0\",\n    \"react-dom\": \"^18.2.0\",\n    \"canvas-confetti\": \"^1.6.0\"\n  }\n}"
+    },
+    "dependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "canvas-confetti": "^1.6.0"
+    },
+    "activeFile": "/src/App.jsx",
+    "createdAt": "2026-05-22T19:40:54.806Z",
+    "updatedAt": "2026-05-22T21:28:35.196Z"
+  }
+]

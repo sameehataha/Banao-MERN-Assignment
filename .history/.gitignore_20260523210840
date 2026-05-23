@@ -1,0 +1,13 @@
+/node_modules
+/dist
+/logs   
+/coverage
+*.log
+
+*.env
+.DS_Store
+.idea/
+.vscode/    
+*.pem
+*.key
+*.crt
